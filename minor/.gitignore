@@ -1,0 +1,45 @@
+# Node.js / Next.js
+node_modules/
+.next/
+.env
+.env.local
+.env.development.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnpm-store/
+dist/
+build/
+out/
+*.tgz
+*.log
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+
+# Backend Specifics (adjust as needed for your backend language/framework)
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Logs
+logs/
+*.log
+
+# Large generated files / Media (ADD THESE LINES)
+*.mp4
+*.pdf
+reports/ # This will ignore the entire reports directory and its contents
+
+# Misc
+*.bak
+*.swp

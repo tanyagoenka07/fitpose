@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+venv/
+.env
+*.log
+
+# Node.js (if using frontend)
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# MacOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
